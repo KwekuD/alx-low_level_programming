@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 /**
-* main - Assign a number to the variable n each time it is executed
-* and print the last digit of the number stored in the variable n
-* Return: Always 0 (Success)
-*/
+ * main - Assign a number to the variable n each time it is executed
+ * and print the last digit of the number stored in the variable n
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 int ch;
 int n;
 for (ch = 48; ch <= 57; ch++)
 {
-for (ch = 49; n <= 57; n++)
+for (n = 49; n <= 57; n++)
 {
 if (n > ch)
 {
