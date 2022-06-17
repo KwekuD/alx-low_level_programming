@@ -18,7 +18,7 @@ if (n > ch)
 putchar(ch);
 putchar(n);
 if (ch != 56 || n != 57)
-ch
+{
 putchar(44);
 putchar(32);
 }
